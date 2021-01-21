@@ -9,6 +9,7 @@ body {
     font-size: 22px;
     background-color: black;
     opacity: 0.9;
+    color: seashell;
 }
 
 header {
@@ -21,6 +22,8 @@ header {
     border-bottom: 1px solid seashell;
     position: fixed;
     width: 100%;
+    z-index: 2;
+    background-color: black;
 }
 
 .logo {
@@ -38,3 +41,25 @@ a {
     color: seashell;
 }
 
+
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    height: 700px;
+    background-image: url(../images/img-mission-background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mission-text {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    background-size: 100%;
+}
+
+h2, h3, h4 {
+    padding: 10px;
+}
